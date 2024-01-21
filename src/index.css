@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply box-border p-0 m-0;
+}
+
+#app {
+    @apply bg-zinc-900 text-gray-400 h-screen w-screen;
+}
