@@ -6,6 +6,29 @@
     @apply box-border p-0 m-0;
 }
 
+/* Personnalisation de la scrollbar pour les navigateurs basés sur WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Largeur de la scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #1e1e1e; /* Couleur de la thumb (partie mobile de la scrollbar) */
+    border-radius: 6px; /* Coins arrondis */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #343434; /* Couleur de la piste (partie fixe de la scrollbar) */
+  }
+  
+  /* Personnalisation de la scrollbar pour Firefox */
+  /* Notez que Firefox utilise une approche différente */
+  /* Il utilise les pseudo-éléments scrollbar-track et scrollbar-thumb */
+  /* La personnalisation de la scrollbar dans Firefox est un peu plus limitée */
+  * {
+    scrollbar-color: #1e1e1e #343434; /* Couleur de la thumb et de la piste */
+    scrollbar-width: thin; /* Largeur de la scrollbar */
+  }
+
 #app {
-    @apply bg-zinc-900 text-gray-400 h-screen w-screen;
+    @apply bg-zinc-900 text-gray-400 min-h-screen h-fit w-fit min-w-full grid grid-cols-[150px,auto] grid-rows-[min-content,auto] pb-5;
 }

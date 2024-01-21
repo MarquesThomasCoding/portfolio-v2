@@ -1,11 +1,16 @@
 <script>
+import SectionTitle from '../components/SectionTitle.vue';
+
 export default {
-  name: 'ContactView',
+    name: 'ContactView',
+    components: {
+        SectionTitle
+    }
 }
 </script>
 
 <template>
     <main>
-        <h1>Contact</h1>
+        <SectionTitle title="Contact" />
     </main>
 </template>
