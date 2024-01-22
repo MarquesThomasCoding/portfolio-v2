@@ -30,7 +30,7 @@ export default {
                     <span class="text-lg flex justify-start items-center gap-2.5"><img src="/imgs/goal.png" alt="goal" class="w-6">My goal is to contribute to this world of technologies, by providing innovative, elegant solutions that make a significant difference</span>
                 </div>
             </div>
-            <span class="text-gray-200 text-xl"><a @click="openPDF()" class="flex items-center gap-2.5 hover:underline w-fit cursor-pointer"><img src="../assets/imgs/cv.png" alt="cv" class="w-12"> ← See my Curriculum Vitae</a></span>
+            <span class="text-gray-200 text-xl"><a @click="openPDF()" class="flex items-center gap-2.5 hover:underline w-fit cursor-pointer"><img src="/imgs/cv.png" alt="cv" class="w-12"> ← See my Curriculum Vitae</a></span>
         </div>
         </div>
     </main>
