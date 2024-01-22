@@ -8,7 +8,7 @@ export default {
     },
     methods: {
         openPDF() {
-            window.open('/assets/files/CV_MarquesThomas_Alternance.pdf', '_blank');
+            window.open('/files/CV_MarquesThomas_Alternance.pdf', '_blank');
         }
     }
 }
