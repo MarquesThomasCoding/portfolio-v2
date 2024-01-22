@@ -9,7 +9,8 @@ export const useWorkStore = defineStore('work', {
                 date: 'november 2023',
                 description: 'Integration of an Illustrator model of the Mongoo website',
                 image: '/src/assets/imgs/mongoo.png',
-                link: 'https://marquesthomascoding.github.io/Rendu-Integration/mon-projet'
+                link: 'https://marquesthomascoding.github.io/Rendu-Integration/mon-projet',
+                technos: ['html', 'sass', 'js']
             },
             {
                 id: 2,
@@ -17,7 +18,8 @@ export const useWorkStore = defineStore('work', {
                 date: 'january 2024',
                 description: 'A Hangman game in JavaScript',
                 image: '/src/assets/imgs/hangman-game.png',
-                link: 'https://marquesthomascoding.github.io/hangman-game/'
+                link: 'https://marquesthomascoding.github.io/hangman-game/',
+                technos: ['html', 'css', 'js']
             },
             {
                 id: 3,
@@ -25,7 +27,8 @@ export const useWorkStore = defineStore('work', {
                 date: 'january 2024',
                 description: 'Creation of a fictitious Pokémon ECommerce site using the PokeAPI API',
                 image: '/src/assets/imgs/pokeshop.png',
-                link: 'https://marquesthomascoding.github.io/ecommerce-pokemon/'
+                link: 'https://marquesthomascoding.github.io/ecommerce-pokemon/',
+                technos: ['html', 'css', 'js']
             },
             {
                 id: 4,
@@ -33,7 +36,8 @@ export const useWorkStore = defineStore('work', {
                 date: '2023',
                 description: 'My first portfolio',
                 image: '/src/assets/imgs/portfolio.png',
-                link: 'https://marquesthomascoding.github.io/portfolio/'
+                link: 'https://marquesthomascoding.github.io/portfolio/',
+                technos: ['html', 'sass', 'js']
             },
             {
                 id: 5,
@@ -41,7 +45,8 @@ export const useWorkStore = defineStore('work', {
                 date: '2024',
                 description: 'My current portfolio',
                 image: 'https://via.placeholder.com/150',
-                link: 'https://marquesthomascoding.github.io/portfolio-v2/'
+                link: 'https://marquesthomascoding.github.io/portfolio-v2/',
+                technos: ['html', 'tailwind', 'vue']
             }
         ]
     })

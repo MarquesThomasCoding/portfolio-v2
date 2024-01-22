@@ -2,26 +2,36 @@
 import SectionTitle from '@/components/SectionTitle.vue';
 
 export default {
-  name: 'AboutView',
+    name: 'AboutView',
     components: {
         SectionTitle
     },
+    methods: {
+        openPDF() {
+            window.open('src/assets/files/CV_MarquesThomas_Alternance.pdf', '_blank');
+        }
+    }
 }
 </script>
 
 <template>
-    <main>
-        <SectionTitle title="About me" />
-        <div class="ml-[50%] flex flex-col gap-16">
+    <main class="grid grid-cols-1 grid-rows-[min-content,auto] w-full animate-smoothApparition">
+        <SectionTitle title="About me" class="col-span-full" />
+        <div class="w-full grid grid-cols-[min-content,auto] gap-20">
+            <div class="w-64 aspect-square">
+                <img src="../assets/imgs/me.jpg" alt="me" class="w-full h-full object-cover object-top rounded-lg shadow-lg">
+            </div>
+            <div class="flex flex-col gap-16">
             <div class="flex flex-col gap-5">
-                <h2 class="text-6xl text-gray-200">Hello</h2>
+                <h2 class="text-6xl text-gray-200">Hello world!</h2>
                 <div class="flex flex-col gap-5">
-                    <span class="text-base">I'm a future web developer</span>
-                    <span class="text-base">I'm currently studying at IIM, in France, in 2nd year</span>
-                    <span class="text-base">My goal is to contribute to this world of technologies, by providing innovative, elegant solutions that make a significant difference</span>
+                    <span class="text-lg flex justify-start items-center gap-2.5"><img src="../assets/imgs/web.png" alt="web" class="w-6">I'm a future web developer</span>
+                    <span class="text-lg flex justify-start items-center gap-2.5"><img src="../assets/imgs/school.png" alt="school" class="w-6">I'm currently studying at IIM, in France, in 2nd year</span>
+                    <span class="text-lg flex justify-start items-center gap-2.5"><img src="../assets/imgs/goal.png" alt="goal" class="w-6">My goal is to contribute to this world of technologies, by providing innovative, elegant solutions that make a significant difference</span>
                 </div>
             </div>
-            <span class="text-gray-200 text-xl">See my Curriculum Vitae</span>
+            <span class="text-gray-200 text-xl"><a @click="openPDF()" class="flex items-center gap-2.5 hover:underline w-fit cursor-pointer"><img src="../assets/imgs/cv.png" alt="cv" class="w-12"> ← See my Curriculum Vitae</a></span>
+        </div>
         </div>
     </main>
 </template>

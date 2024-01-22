@@ -41,18 +41,18 @@ export default {
 </script>
 
 <template>
-    <main class="grid grid-cols-2 grid-rows-[min-content,auto] w-full">
+    <main class="grid grid-cols-2 grid-rows-[min-content,auto] w-full animate-smoothApparition">
         <SectionTitle title="My works" class="col-span-full" />
         <div class="w-full">
             <WorkCard :work="this.work"/>
         </div>
         <div class="w-full">
-            <ul class="w-full border-l">
-                <li :id="work.id" @mouseover="showWork(work)" v-for="(work, index) in this.workStore.works" :key="work.id" class="flex items-center w-full py-2.5 pl-5 gap-12 hover:bg-zinc-950" :class="{ 'bg-zinc-950': index === 0 }">
+            <ul class="w-full">
+                <li :id="work.id" @mouseover="showWork(work)" v-for="(work, index) in this.workStore.works" :key="work.id" class="flex items-center w-full py-2.5 pl-5 transition-colors duration-250 gap-12 hover:bg-zinc-950 border-b border-gray-500 last:border-b-0" :class="{ 'bg-zinc-950': index === 0, 'border-l-0': index === 0 }">
                     <div class="w-full flex flex-col">
                         <div class="w-full flex justify-between items-start">
                             <span class="text-3xl text-gray-200 uppercase">{{ work.name }}</span>
-                            <a :href="work.link">Link</a>
+                            <a :href="work.link"><img src="../assets/imgs/lien.png" alt="lien" class="w-5"></a>
                         </div>
                         <span>{{ work.date }}</span>
                         <span>{{ work.description }}</span>

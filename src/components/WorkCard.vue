@@ -23,5 +23,9 @@ export default {
             <img @click="openLink(work.link)" :src="work.image" :alt="work.title" class="w-full h-64 object-cover object-top rounded-lg shadow-lg cursor-pointer hover:opacity-50">
         </div>
         <p class="text-gray-200 px-10 py-2.5">{{ work.description }}</p>
+        <div class="px-10">
+            <p>Technologies used :</p>
+            <img class="h-8 mt-1" :src="'https://skillicons.dev/icons?i='+work.technos.map(techno => techno).join(',')" alt="technos">
+        </div>
     </div>
 </template>
