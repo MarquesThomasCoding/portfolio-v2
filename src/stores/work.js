@@ -8,7 +8,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Mongoo',
                 date: 'november 2023',
                 description: 'Integration of an Illustrator model of the Mongoo website',
-                image: '/assets/imgs/mongoo.png',
+                image: '/imgs/mongoo.png',
                 link: 'https://marquesthomascoding.github.io/Rendu-Integration/mon-projet',
                 technos: ['html', 'sass', 'js']
             },
@@ -35,7 +35,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Portfolio v1',
                 date: '2023',
                 description: 'My first portfolio',
-                image: '/assets/imgs/portfolio.png',
+                image: '../assets/imgs/portfolio.png',
                 link: 'https://marquesthomascoding.github.io/portfolio/',
                 technos: ['html', 'sass', 'js']
             },
