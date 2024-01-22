@@ -35,7 +35,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Portfolio v1',
                 date: '2023',
                 description: 'My first portfolio',
-                image: '/assets/imgs/portfolio.png',
+                image: '../assets/imgs/portfolio.png',
                 link: 'https://marquesthomascoding.github.io/portfolio/',
                 technos: ['html', 'sass', 'js']
             },
