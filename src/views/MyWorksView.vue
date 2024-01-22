@@ -52,7 +52,7 @@ export default {
                     <div class="w-full flex flex-col">
                         <div class="w-full flex justify-between items-start">
                             <span class="text-3xl text-gray-200 uppercase">{{ work.name }}</span>
-                            <a :href="work.link"><img src="/assets/imgs/lien.png" alt="lien" class="w-5"></a>
+                            <a :href="work.link"><img src="../assets/imgs/lien.png" alt="lien" class="w-5"></a>
                         </div>
                         <span>{{ work.date }}</span>
                         <span>{{ work.description }}</span>
