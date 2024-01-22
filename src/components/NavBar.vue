@@ -20,7 +20,7 @@ export default {
 <template>
     <div class="flex flex-col justify-start items-start w-fit mt-16">
         <div @click="showNavbar()" class="px-5 py-2.5 w-fit cursor-pointer">
-            <img src="../assets/imgs/menu.png" alt="menu" style="width:35px; height:25px" />
+            <img src="/imgs/menu.png" alt="menu" style="width:35px; height:25px" />
         </div>
         <nav class="flex flex-col justify-center items-start w-fit whitespace-nowrap animate-smoothApparition">
             <RouterLink class="py-2.5 px-5 after:absolute after:h-full after:top-0 after:left-0 after:-z-[1] z-[2] after:w-0 after:bg-gray-200 hover:after:w-full hover:text-black relative after:transition-all" :class="{ 'bg-gray-200': $route.path === '/', 'text-black': $route.path === '/' }" to="/">Home</RouterLink>

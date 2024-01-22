@@ -17,7 +17,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Hangman Game',
                 date: 'january 2024',
                 description: 'A Hangman game in JavaScript',
-                image: '/assets/imgs/hangman-game.png',
+                image: '/imgs/hangman-game.png',
                 link: 'https://marquesthomascoding.github.io/hangman-game/',
                 technos: ['html', 'css', 'js']
             },
@@ -26,7 +26,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'PokeShop',
                 date: 'january 2024',
                 description: 'Creation of a fictitious Pokémon ECommerce site using the PokeAPI API',
-                image: '/assets/imgs/pokeshop.png',
+                image: '/imgs/pokeshop.png',
                 link: 'https://marquesthomascoding.github.io/ecommerce-pokemon/',
                 technos: ['html', 'css', 'js']
             },
@@ -35,7 +35,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Portfolio v1',
                 date: '2023',
                 description: 'My first portfolio',
-                image: '../assets/imgs/portfolio.png',
+                image: '/imgs/portfolio.png',
                 link: 'https://marquesthomascoding.github.io/portfolio/',
                 technos: ['html', 'sass', 'js']
             },
