@@ -8,7 +8,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Mongoo',
                 date: 'november 2023',
                 description: 'Integration of an Illustrator model of the Mongoo website',
-                image: '/src/assets/imgs/mongoo.png',
+                image: '../assets/imgs/mongoo.png',
                 link: 'https://marquesthomascoding.github.io/Rendu-Integration/mon-projet',
                 technos: ['html', 'sass', 'js']
             },
@@ -17,7 +17,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Hangman Game',
                 date: 'january 2024',
                 description: 'A Hangman game in JavaScript',
-                image: '/src/assets/imgs/hangman-game.png',
+                image: '../assets/imgs/hangman-game.png',
                 link: 'https://marquesthomascoding.github.io/hangman-game/',
                 technos: ['html', 'css', 'js']
             },
@@ -26,7 +26,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'PokeShop',
                 date: 'january 2024',
                 description: 'Creation of a fictitious Pokémon ECommerce site using the PokeAPI API',
-                image: '/src/assets/imgs/pokeshop.png',
+                image: '../assets/imgs/pokeshop.png',
                 link: 'https://marquesthomascoding.github.io/ecommerce-pokemon/',
                 technos: ['html', 'css', 'js']
             },
@@ -35,7 +35,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Portfolio v1',
                 date: '2023',
                 description: 'My first portfolio',
-                image: '/src/assets/imgs/portfolio.png',
+                image: '../assets/imgs/portfolio.png',
                 link: 'https://marquesthomascoding.github.io/portfolio/',
                 technos: ['html', 'sass', 'js']
             },
