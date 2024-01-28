@@ -46,7 +46,16 @@ export const useWorkStore = defineStore('work', {
                 description: 'My current portfolio',
                 image: 'https://via.placeholder.com/150',
                 link: 'https://marquesthomascoding.github.io/portfolio-v2/',
-                technos: ['html', 'tailwind', 'vue']
+                technos: ['html', 'tailwind', 'js', 'vue']
+            },
+            {
+                id: 6,
+                name: 'Weather App',
+                date: 'january 2024',
+                description: 'Weather Web App using the WeatherAPI API',
+                image: 'https://via.placeholder.com/150',
+                link: 'https://appweather-react.vercel.app',
+                technos: ['html', 'css', 'js', 'react']
             }
         ]
     })

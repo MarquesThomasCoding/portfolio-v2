@@ -6,7 +6,7 @@ export default {
 
 <template>
     <!-- <h1 class="text-6xl text-gray-200 px-5 py-10 col-span-full h-fit">Thomas MARQUES</h1> -->
-    <div class="flex text-6xl text-gray-200 px-5 py-10 col-span-full h-fit">
+    <div class="flex text-6xl text-gray-200 px-5 py-10 col-span-full h-fit max-[600px]:text-4xl">
         <span style="--i:0" class="relative inline-block animate-flip">T</span>
         <span style="--i:1" class="relative inline-block animate-flip">h</span>
         <span style="--i:2" class="relative inline-block animate-flip">o</span>

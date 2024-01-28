@@ -41,7 +41,7 @@ export default {
 </script>
 
 <template>
-    <main class="grid grid-cols-2 grid-rows-[min-content,auto] w-full animate-smoothApparition">
+    <main class="grid grid-cols-2 grid-rows-[min-content,auto] w-full animate-smoothApparition max-[912px]:grid-cols-1">
         <SectionTitle title="My works" class="col-span-full" />
         <div class="w-full">
             <WorkCard :work="this.work"/>
