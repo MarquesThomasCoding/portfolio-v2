@@ -48,11 +48,11 @@ export default {
         </div>
         <div class="w-full">
             <ul class="w-full">
-                <li :id="work.id" @mouseover="showWork(work)" v-for="(work, index) in this.workStore.works" :key="work.id" class="flex items-center w-full py-2.5 pl-5 transition-colors duration-250 gap-12 hover:bg-zinc-950 border-b border-gray-500 last:border-b-0" :class="{ 'bg-zinc-950': index === 0, 'border-l-0': index === 0 }">
+                <li :id="work.id" @mouseover="showWork(work)" v-for="(work, index) in this.workStore.works" :key="work.id" class="flex items-center w-full py-2.5 pl-5 transition-colors duration-250 gap-2 hover:bg-zinc-950 border-b border-gray-500 last:border-b-0" :class="{ 'bg-zinc-950': index === 0, 'border-l-0': index === 0 }">
                     <div class="w-full flex flex-col">
                         <div class="w-full flex justify-between items-start">
                             <span class="text-3xl text-gray-200 uppercase">{{ work.name }}</span>
-                            <a :href="work.link"><img src="/imgs/lien.png" alt="lien" class="w-5"></a>
+                            <a :href="work.link"><img src="/imgs/lien.png" alt="lien" class="w-5 h-5"></a>
                         </div>
                         <span>{{ work.date }}</span>
                         <span>{{ work.description }}</span>
