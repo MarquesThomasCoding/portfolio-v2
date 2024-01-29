@@ -44,7 +44,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Portfolio v2',
                 date: '2024',
                 description: 'My current portfolio',
-                image: 'https://via.placeholder.com/150',
+                image: '/imgs/portfolio_v2.png',
                 link: 'https://marquesthomascoding.github.io/portfolio-v2/',
                 technos: ['html', 'tailwind', 'js', 'vue']
             },
@@ -53,7 +53,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Weather App',
                 date: 'january 2024',
                 description: 'Weather Web App using the WeatherAPI API',
-                image: 'https://via.placeholder.com/150',
+                image: '/imgs/weather_app.png',
                 link: 'https://appweather-react.vercel.app',
                 technos: ['html', 'css', 'js', 'react']
             }
