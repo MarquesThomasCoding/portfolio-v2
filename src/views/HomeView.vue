@@ -24,7 +24,7 @@ export default {
 
 <template>
     <main class="grid grid-cols-1 grid-rows-[min-content,auto] w-full animate-smoothApparition">
-        <SectionTitle title="About me" class="col-span-full" />
+        <SectionTitle title="A propos" class="col-span-full" />
         <div class="w-full grid grid-cols-[min-content,auto] gap-20 max-[814px]:grid-cols-1">
             <div class="w-64 aspect-square max-[300px]:w-full">
                 <img src="/imgs/me.jpg" alt="me" class="w-full aspect-square object-cover object-top rounded-lg shadow-lg">
@@ -33,12 +33,12 @@ export default {
               <div class="flex flex-col gap-5">
                   <h2 class="text-6xl text-gray-200">Hello world!</h2>
                   <div class="flex flex-col gap-5">
-                      <span class="text-lg flex justify-start items-center gap-2.5"><img src="/imgs/web.png" alt="web" class="w-6">I'm a future web developer</span>
-                      <span class="text-lg flex justify-start items-center gap-2.5"><img src="/imgs/school.png" alt="school" class="w-6">I'm currently studying at IIM, in France, in 2nd year</span>
-                      <span class="text-lg flex justify-start items-center gap-2.5"><img src="/imgs/goal.png" alt="goal" class="w-6">My goal is to contribute to this world of technologies, by providing innovative, elegant solutions that make a significant difference</span>
+                      <span class="text-lg flex justify-start items-center gap-2.5"><img src="/imgs/web.png" alt="web" class="w-6">Je suis un futur développeur web</span>
+                      <span class="text-lg flex justify-start items-center gap-2.5"><img src="/imgs/school.png" alt="school" class="w-6">Je suis actuellement étudiant en 2ème année à l'IIM Digital School</span>
+                      <span class="text-lg flex justify-start items-center gap-2.5"><img src="/imgs/goal.png" alt="goal" class="w-6">Mon objectif est de contribuer au monde du numérique, en fournissant des solutions innovantes et élégantes qui font une différence significative.</span>
                   </div>
               </div>
-              <span class="text-gray-200 text-xl"><a @click="openPDF()" class="flex items-center gap-2.5 hover:underline w-fit cursor-pointer"><img src="/imgs/cv.png" alt="cv" class="w-12"> ← See my Curriculum Vitae</a></span>
+              <span class="text-gray-200 text-xl"><a @click="openPDF()" class="flex items-center gap-2.5 hover:underline w-fit cursor-pointer"><img src="/imgs/cv.png" alt="cv" class="w-12"> ← Voir mon Curriculum Vitae</a></span>
           </div>
         </div>
         

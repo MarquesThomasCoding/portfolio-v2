@@ -18,7 +18,7 @@ export default {
         <FormContact />
 
         <div class="w-fit flex flex-col gap-4">
-            <h3 class="text-2xl">Other ways to contact me :</h3>
+            <h3 class="text-2xl">Autre moyens de me contacter :</h3>
             <span class="w-fit group relative">
                 <a class="flex gap-4 items-center" href="https://linkedin.com/in/marquesthomas">
                     <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn">

@@ -24,7 +24,7 @@ export default {
         </div>
         <p class="text-gray-200 px-10 py-2.5">{{ work.description }}</p>
         <div class="px-10">
-            <p>Technologies used :</p>
+            <p>Technologies utilisées :</p>
             <img class="h-8 mt-1" :src="'https://skillicons.dev/icons?i='+work.technos.map(techno => techno).join(',')" alt="technos">
         </div>
     </div>

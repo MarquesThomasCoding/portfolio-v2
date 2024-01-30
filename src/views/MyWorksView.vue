@@ -42,7 +42,7 @@ export default {
 
 <template>
     <main class="grid grid-cols-2 grid-rows-[min-content,auto] w-full h-fit animate-smoothApparition max-[912px]:grid-cols-1">
-        <SectionTitle title="My works" class="col-span-full" />
+        <SectionTitle title="Mes projets" class="col-span-full" />
         <div class="w-full">
             <WorkCard :work="this.work"/>
         </div>

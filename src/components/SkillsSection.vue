@@ -7,7 +7,7 @@ export default {
 <template>
     <div class="grid grid-cols-3 justify-items-center text-gray-400 h-fit gap-4 mx-5 mt-6 max-[650px]:grid-cols-1">
           <div class="flex flex-col items-center gap-5 w-full relative border-2 border-gray-400 p-5">
-            <h3 class="bg-zinc-900 absolute -top-5 p-2 font-bold">Languages</h3>
+            <h3 class="bg-zinc-900 absolute -top-5 p-2 font-bold">Langages</h3>
             <span class="flex flex-wrap justify-center items-center gap-3 w-full mt-6">
               <i class="devicon-html5-plain text-4xl hover:text-red-500 hover:[text-shadow:_0_0_20px_rgb(239_68_68_/_40%)]"></i>
               <i class="devicon-css3-plain text-4xl hover:text-blue-500 hover:[text-shadow:_0_0_20px_rgb(59_130_246_/_40%)]"></i>
@@ -26,7 +26,7 @@ export default {
             </span>
           </div>
           <div class="flex flex-col items-center gap-5 w-full relative border-2 border-gray-400 p-5">
-            <h3 class="bg-zinc-900 absolute -top-5 p-2 font-bold">Tools</h3>
+            <h3 class="bg-zinc-900 absolute -top-5 p-2 font-bold">Outils</h3>
             <span class="flex flex-wrap justify-center items-center gap-3 w-full mt-6">
               <i class="devicon-figma-plain text-4xl hover:text-red-400 hover:[text-shadow:_0_0_20px_rgb(248_113_113_/_40%)]"></i>
               <i class="devicon-wordpress-plain text-4xl hover:text-teal-950 hover:[text-shadow:_0_0_20px_rgb(4_47_46_/_40%)]"></i>
