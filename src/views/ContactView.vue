@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-    <main>
+    <main class="animate-smoothApparition">
         <SectionTitle title="Contact" />
         <form ref="form" @submit.prevent="sendEmail" class="flex flex-col w-full text-gray-200 p-4">
             <div class="flex gap-8 max-[800px]:flex-col">
