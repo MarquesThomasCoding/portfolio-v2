@@ -24,8 +24,8 @@ export default {
     <main class="grid grid-cols-1 grid-rows-[min-content,auto] w-full animate-smoothApparition">
         <SectionTitle title="About me" class="col-span-full" />
         <div class="w-full grid grid-cols-[min-content,auto] gap-20 max-[814px]:grid-cols-1">
-            <div class="w-64 aspect-square">
-                <img src="/imgs/me.jpg" alt="me" class="w-full h-full object-cover object-top rounded-lg shadow-lg">
+            <div class="w-64 aspect-square max-[300px]:w-full">
+                <img src="/imgs/me.jpg" alt="me" class="w-full aspect-square object-cover object-top rounded-lg shadow-lg">
             </div>
             <div class="flex flex-col gap-16">
               <div class="flex flex-col gap-5">

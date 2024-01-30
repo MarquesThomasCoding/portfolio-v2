@@ -15,7 +15,10 @@ export default {
       animation: {
         smoothApparition: 'smoothApparition .5s ease-in-out',
         flip: 'flip 2s calc(.2s * var(--i))'
-      }
+      },
+      fontFamily: {
+        ubuntu: ['Ubuntu', 'sans-serif']
+      },
     },
   },
   variants: {
