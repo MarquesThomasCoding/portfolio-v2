@@ -1,35 +1,13 @@
-# portfolio-v2
+# Portfolio - Thomas MARQUES
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is my portfolio, it's a Vue project with Vite. It's here to show my skills in web development and the projects where I put them on practice.
 
-## Recommended IDE Setup
+## 💻 Technolgies used :
+![](https://skillicons.dev/icons?i=vuejs)
+![](https://skillicons.dev/icons?i=tailwind)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## ⚙️ Status :
+✔️ Done
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## 🔗 Link :
+[https://marques-thomas.vercel.app](https://marques-thomas.vercel.app)
