@@ -15,6 +15,16 @@ export const useWorkStore = defineStore('work', {
             },
             {
                 id: 2,
+                name: 'ACHAKA CONSEILS',
+                date: 'octobre à décembre 2023',
+                summary: 'Site professionnel de conseil en propriété industrielle',
+                description: "Projet scolaire réalisé en 3 mois au sein d'une équipe de 11 personnes pour un client réel, lors de la Bourse aux Projets du 1er semestre 2023-2024. L'objectif : nous former à la gestion d'un projet concret et d'un client avec de vrais besoins.",
+                image: '/imgs/achaka.png',
+                link: 'https://10.achakaconseils.com',
+                technos: ['html', 'sass', 'js', 'wordpress']
+            },
+            {
+                id: 3,
                 name: 'Portfolio v1',
                 date: '2023',
                 summary: 'Mon premier portfolio',
@@ -24,7 +34,7 @@ export const useWorkStore = defineStore('work', {
                 technos: ['html', 'sass', 'js']
             },
             {
-                id: 3,
+                id: 4,
                 name: 'Hangman Game',
                 date: 'janvier 2024',
                 summary: 'Un jeu du pendu en Javascript',
@@ -34,7 +44,7 @@ export const useWorkStore = defineStore('work', {
                 technos: ['html', 'css', 'js']
             },
             {
-                id: 4,
+                id: 5,
                 name: 'PokeShop',
                 date: 'janvier 2024',
                 summary: "Site web fictif d'achat de Pokémon utilisant l'API PokeAPI",
@@ -44,7 +54,7 @@ export const useWorkStore = defineStore('work', {
                 technos: ['html', 'css', 'js']
             },
             {
-                id: 5,
+                id: 6,
                 name: 'Weather App',
                 date: 'janvier 2024',
                 summary: "Application web météo utilisant l'API WeatherAPI",
@@ -54,7 +64,7 @@ export const useWorkStore = defineStore('work', {
                 technos: ['html', 'css', 'js', 'react']
             },
             {
-                id: 6,
+                id: 7,
                 name: 'Portfolio v2',
                 date: '2024',
                 summary: 'Mon portfolio actuel',
