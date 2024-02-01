@@ -30,7 +30,7 @@ export const useWorkStore = defineStore('work', {
                 summary: 'Mon premier portfolio',
                 description: "Il s'agit de mon premier portfolio, créé en utilisant HTML, Sass et JavaScript. Il est assez simple, mais c'était mon premier grand projet personnel, donc j'en suis fier. Je voulais créer un moyen simple de montrer mes projets.",
                 image: '/imgs/portfolio.png',
-                link: 'https://marquesthomascoding.github.io/portfolio/',
+                link: 'https://www.v1.thomasmarques.fr',
                 technos: ['html', 'sass', 'js']
             },
             {
@@ -70,7 +70,7 @@ export const useWorkStore = defineStore('work', {
                 summary: 'Mon portfolio actuel',
                 description: "Le site web sur lequel vous vous trouvez actuellement. Ceci est mon portfolio actuel, créé en utilisant Vue.js et TailwindCSS. Je voulais créer un portfolio à la fois simple et moderne, reflétant ma personnalité, mais aussi me mettant au défi en utilisant des technologies que j'ai rarement utilisées auparavant.",
                 image: '/imgs/portfolio_v2.png',
-                link: 'https://marquesthomascoding.github.io/portfolio-v2/',
+                link: 'https://thomasmarques.fr',
                 technos: ['html', 'tailwind', 'js', 'vue']
             }
         ]
