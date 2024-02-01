@@ -27,5 +27,6 @@ export default {
             <p>Technologies utilisées :</p>
             <img class="h-8 mt-1" :src="'https://skillicons.dev/icons?i='+work.technos.map(techno => techno).join(',')" alt="technos">
         </div>
+        <a v-if="work.github" :href="work.github" class="mt-2 px-10 text-blue-400 hover:text-blue-700">Voir sur Github</a>
     </div>
 </template>

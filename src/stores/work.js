@@ -11,6 +11,7 @@ export const useWorkStore = defineStore('work', {
                 description: "Il s'agit d'un projet scolaire, réalisé en 1 semaine. Le but était d'intégrer une maquette Illustrator du site Mongoo (qui est un restaurant à La Défense, Paris). J'ai utilisé HTML, Sass et JavaScript pour créer le site. L'objectif était de maîtriser le HTML et le CSS, d'apprendre à utiliser le pré-processeur Sass, et d'apprendre à intégrer efficacement une maquette.",
                 image: '/imgs/mongoo.png',
                 link: 'https://marquesthomascoding.github.io/Rendu-Integration/mon-projet',
+                github: 'https://github.com/marquesthomascoding/Rendu-Integration',
                 technos: ['html', 'sass', 'js']
             },
             {
@@ -31,6 +32,7 @@ export const useWorkStore = defineStore('work', {
                 description: "Il s'agit de mon premier portfolio, créé en utilisant HTML, Sass et JavaScript. Il est assez simple, mais c'était mon premier grand projet personnel, donc j'en suis fier. Je voulais créer un moyen simple de montrer mes projets.",
                 image: '/imgs/portfolio.png',
                 link: 'https://www.v1.thomasmarques.fr',
+                github: 'https://github.com/marquesthomascoding/portfolio',
                 technos: ['html', 'sass', 'js']
             },
             {
@@ -41,6 +43,7 @@ export const useWorkStore = defineStore('work', {
                 description: "Un de mes premiers projets en JavaScript. Je voulais créer un jeu du pendu, donc je l'ai fait. J'ai utilisé HTML, CSS et JavaScript pour le créer, et mon objectif principal était de me challenger sur le JavaScript natif en essayant de maîtriser ses principaux concepts.",
                 image: '/imgs/hangman-game.png',
                 link: 'https://marquesthomascoding.github.io/hangman-game/',
+                github: 'https://github.com/marquesthomascoding/hangman-game',
                 technos: ['html', 'css', 'js']
             },
             {
@@ -51,6 +54,7 @@ export const useWorkStore = defineStore('work', {
                 description: "Dans ce projet, réalisé en 1 semaine pour l'école, je devais créer un site web fictif d'achat de Pokémon en utilisant l'API PokeAPI. J'ai utilisé HTML, CSS et JavaScript pour créer ce site. L'objectif était de maîtriser les bases de la recherche et de l'utilisation d'une API.",
                 image: '/imgs/pokeshop.png',
                 link: 'https://marquesthomascoding.github.io/ecommerce-pokemon/',
+                github: 'https://github.com/marquesthomascoding/ecommerce-pokemon',
                 technos: ['html', 'css', 'js']
             },
             {
@@ -61,6 +65,7 @@ export const useWorkStore = defineStore('work', {
                 description: "Application web météo utilisant l'API WeatherAPI. Ce projet était mon tout premier projet utilisant les bases de React.js. Sur cette application web, vous pouvez rechercher une ville et obtenir la météo du jour et des 5 prochains jours, en montrant les conditions, la température, l'humidité, etc...",
                 image: '/imgs/weather_app.png',
                 link: 'https://appweather-react.vercel.app',
+                github: 'https://github.com/marquesthomascoding/weather-app-react',
                 technos: ['html', 'css', 'js', 'react']
             },
             {
@@ -71,6 +76,7 @@ export const useWorkStore = defineStore('work', {
                 description: "Le site web sur lequel vous vous trouvez actuellement. Ceci est mon portfolio actuel, créé en utilisant Vue.js et TailwindCSS. Je voulais créer un portfolio à la fois simple et moderne, reflétant ma personnalité, mais aussi me mettant au défi en utilisant des technologies que j'ai rarement utilisées auparavant.",
                 image: '/imgs/portfolio_v2.png',
                 link: 'https://thomasmarques.fr',
+                github: 'https://github.com/marquesthomascoding/portfolio-v2',
                 technos: ['html', 'tailwind', 'js', 'vue']
             }
         ]
