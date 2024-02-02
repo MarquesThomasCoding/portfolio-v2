@@ -30,6 +30,8 @@ export default {
             <span class="flex flex-wrap justify-center items-center gap-3 w-full mt-6">
               <i class="devicon-figma-plain text-4xl hover:text-red-400 hover:[text-shadow:_0_0_20px_rgb(248_113_113_/_40%)]"></i>
               <i class="devicon-wordpress-plain text-4xl hover:text-teal-950 hover:[text-shadow:_0_0_20px_rgb(4_47_46_/_40%)]"></i>
+              <i class="devicon-github-original text-4xl hover:text-gray-950 hover:[text-shadow:_0_0_20px_rgb(3_7_18_/_40%)]"></i>
+              <i class="devicon-git-plain text-4xl hover:text-orange-950 hover:[text-shadow:_0_0_20px_rgb(67_20_7_/_40%)]"></i>
             </span>
           </div>
         </div>
