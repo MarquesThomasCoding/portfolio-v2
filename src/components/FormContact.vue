@@ -8,8 +8,10 @@ export default {
             emailjs.sendForm('service_hqep5yi', 'template_6okmd4l', this.$refs.form, 'jsS5BIOuCJHSI1yLF')
             .then((result) => {
                 console.log('SUCCESS!', result.text);
+                alert('Votre message a bien été envoyé !')
             }, (error) => {
                 console.log('FAILED...', error.text);
+                alert('Une erreur est survenue lors de l\'envoi de votre message. Veuillez réessayer plus tard.')
             });
         }
     }
