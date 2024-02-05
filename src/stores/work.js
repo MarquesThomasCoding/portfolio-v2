@@ -62,7 +62,7 @@ export const useWorkStore = defineStore('work', {
                 name: 'Weather App',
                 date: 'janvier 2024',
                 summary: "Application web météo utilisant l'API WeatherAPI",
-                description: "Application web météo utilisant l'API WeatherAPI. Ce projet était mon tout premier projet utilisant les bases de React.js. Sur cette application web, vous pouvez rechercher une ville et obtenir la météo du jour et des 5 prochains jours, en montrant les conditions, la température, l'humidité, etc...",
+                description: "Application web météo utilisant l'API WeatherAPI. Ce projet était mon tout premier projet utilisant les bases de React.js. Sur cette application web, vous pouvez rechercher une ville et obtenir la météo du jour et des 3 prochains jours, en montrant les conditions, la température, l'humidité, etc...",
                 image: '/imgs/weather_app.png',
                 link: 'https://appweather-react.vercel.app',
                 github: 'https://github.com/marquesthomascoding/weather-app-react',
