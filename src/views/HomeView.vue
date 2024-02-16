@@ -36,7 +36,7 @@ export default {
                       <span class="text-lg flex justify-start items-center gap-2.5"><i class="fa-solid fa-globe"></i>Développeur web</span>
                       <span class="text-lg flex justify-start items-center gap-2.5"><i class="fa-solid fa-graduation-cap"></i>Etudiant en 2ème année à l'IIM Digital School</span>
                       <span class="text-lg flex justify-start items-center gap-2.5"><i class="fa-solid fa-magnifying-glass"></i>A la recherche d'une alternance en apprentissage au rythme de 3 semaines entreprise / 1 semaine école pour septembre 2024</span>
-                      <span class="text-lg flex justify-start items-center gap-2.5"><i class="fa-solid fa-bullseye"></i>Objectif : contribuer au monde du numérique, en fournissant des solutions innovantes et élégantes qui font une différence significative.</span>
+                      <span class="text-lg flex justify-start items-center gap-2.5"><i class="fa-solid fa-bullseye"></i>Contribuer au monde du numérique, en fournissant des solutions innovantes et élégantes qui font une différence significative.</span>
                   </div>
               </div>
               <span class="text-gray-200 text-xl"><a @click="openPDF()" class="flex items-center gap-2.5 hover:underline w-fit cursor-pointer"><img src="/imgs/cv.png" alt="cv" class="w-12"> ← Voir mon Curriculum Vitae</a></span>
