@@ -31,7 +31,7 @@ export default {
             </div>
             <div class="flex flex-col gap-16">
               <div class="flex flex-col gap-5">
-                  <h2 class="text-6xl text-gray-200">Hello world!</h2>
+                  <h2 class="text-6xl text-gray-400">Hello world!</h2>
                   <div class="flex flex-col gap-5">
                       <span class="text-lg flex justify-start items-center gap-2.5"><i class="fa-solid fa-globe"></i>Développeur web</span>
                       <span class="text-lg flex justify-start items-center gap-2.5"><i class="fa-solid fa-graduation-cap"></i>Etudiant en 2ème année à l'IIM Digital School</span>
