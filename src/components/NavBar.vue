@@ -9,6 +9,7 @@ export default {
     },
     methods: {
         showNavbar() {
+            console.log('showNavbar')
             const navbar = document.querySelector('nav');
             navbar.classList.toggle('hidden');
             navbar.classList.toggle('flex');
@@ -22,7 +23,7 @@ export default {
         <div @click="showNavbar()" class="px-5 py-2.5 w-fit cursor-pointer">
             <img src="/imgs/menu.png" alt="menu" style="width:35px; height:25px" />
         </div>
-        <nav class="flex-col justify-center items-start w-fit whitespace-nowrap animate-smoothApparition hidden bg-zinc-900">
+        <nav class="flex-col justify-center items-start w-fit whitespace-nowrap animate-smoothApparition max-[600px]:hidden flex bg-zinc-900">
             <RouterLink class="py-2.5 px-5 after:absolute after:h-full after:top-0 after:left-0 after:-z-[1] z-[2] after:w-0 after:bg-gray-200 hover:after:w-full hover:text-black relative after:transition-all" :class="{ 'bg-gray-200': $route.path === '/', 'text-black': $route.path === '/' }" to="/">Accueil</RouterLink>
             <RouterLink class="py-2.5 px-5 after:absolute after:h-full after:top-0 after:left-0 after:-z-[1] z-[2] after:w-0 after:bg-gray-200 hover:after:w-full hover:text-black relative after:transition-all" :class="{ 'bg-gray-200': $route.path === '/my-works', 'text-black': $route.path === '/my-works' }" to="/my-works">Mes projets</RouterLink>
             <RouterLink class="py-2.5 px-5 after:absolute after:h-full after:top-0 after:left-0 after:-z-[1] z-[2] after:w-0 after:bg-gray-200 hover:after:w-full hover:text-black relative after:transition-all" :class="{ 'bg-gray-200': $route.path === '/contact', 'text-black': $route.path === '/contact' }" to="/contact">Contact</RouterLink>

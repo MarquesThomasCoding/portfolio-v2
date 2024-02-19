@@ -31,7 +31,7 @@ export const useWorkStore = defineStore('work', {
                 summary: 'Mon premier portfolio',
                 description: "Il s'agit de mon premier portfolio, créé en utilisant HTML, Sass et JavaScript. Il est assez simple, mais c'était mon premier grand projet personnel, donc j'en suis fier. Je voulais créer un moyen simple de montrer mes projets.",
                 image: '/imgs/portfolio.png',
-                link: 'https://www.v1.thomasmarques.fr',
+                link: 'https://marques-thomas-v1.vercel.app',
                 github: 'https://github.com/marquesthomascoding/portfolio',
                 technos: ['html', 'sass', 'js']
             },
