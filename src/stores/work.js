@@ -70,11 +70,22 @@ export const useWorkStore = defineStore('work', {
             },
             {
                 id: 7,
+                name: 'Lyyda',
+                date: 'mai 2024',
+                summary: "Plateforme de gestion d'évènements",
+                description: "Application web de gestion d'évènements. L'objectif était de créer une application web permettant de gérer des évènements, de les ajouter, de les modifier, de les supprimer, etc... J'ai utilisé React.js pour ce projet, et j'ai appris à gérer les états, les props, les composants, etc... J'ai également utilisé Firebase pour la base de données et l'authentification, et Shadcn/UI pour les composants. J'ai également utilisé TailwindCSS pour le style.",
+                image: '/imgs/lyyda.png',
+                link: 'https://github.com/marquesthomascoding/lyyda',
+                github: 'https://github.com/marquesthomascoding/lyyda',
+                technos: ['html', 'tailwind', 'js', 'react', 'firebase']
+            },
+            {
+                id: 8,
                 name: 'Portfolio v2',
                 date: '2024',
                 summary: 'Mon portfolio actuel',
                 description: "Le site web sur lequel vous vous trouvez actuellement. Ceci est mon portfolio actuel, créé en utilisant Vue.js et TailwindCSS. Je voulais créer un portfolio à la fois simple et moderne, reflétant ma personnalité, mais aussi me mettant au défi en utilisant des technologies que j'ai rarement utilisées auparavant.",
-                image: '/imgs/portfolio_v2.png',
+                image: '/imgs/lyyda.png',
                 link: 'https://thomasmarques.fr',
                 github: 'https://github.com/marquesthomascoding/portfolio-v2',
                 technos: ['html', 'tailwind', 'js', 'vue']

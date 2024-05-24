@@ -12,5 +12,5 @@ export default {
 
 <template>
     <TopTitle />
-    <NavBar />
+    <NavBar lang="fr" />
 </template>
