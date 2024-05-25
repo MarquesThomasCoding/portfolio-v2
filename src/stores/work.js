@@ -75,7 +75,7 @@ export const useWorkStore = defineStore('work', {
                 summary: "Plateforme de gestion d'évènements",
                 description: "Application web de gestion d'évènements. L'objectif était de créer une application web permettant de gérer des évènements, de les ajouter, de les modifier, de les supprimer, etc... J'ai utilisé React.js pour ce projet, et j'ai appris à gérer les états, les props, les composants, etc... J'ai également utilisé Firebase pour la base de données et l'authentification, et Shadcn/UI pour les composants. J'ai également utilisé TailwindCSS pour le style.",
                 image: '/imgs/lyyda.png',
-                link: 'https://github.com/marquesthomascoding/lyyda',
+                link: 'https://lyyda.vercel.app/',
                 github: 'https://github.com/marquesthomascoding/lyyda',
                 technos: ['html', 'tailwind', 'js', 'react', 'firebase']
             },
