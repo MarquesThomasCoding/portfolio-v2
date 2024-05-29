@@ -85,7 +85,7 @@ export const useWorkStore = defineStore('work', {
                 date: '2024',
                 summary: 'Mon portfolio actuel',
                 description: "Le site web sur lequel vous vous trouvez actuellement. Ceci est mon portfolio actuel, créé en utilisant Vue.js et TailwindCSS. Je voulais créer un portfolio à la fois simple et moderne, reflétant ma personnalité, mais aussi me mettant au défi en utilisant des technologies que j'ai rarement utilisées auparavant.",
-                image: '/imgs/lyyda.png',
+                image: '/imgs/portfolio_v2.png',
                 link: 'https://thomasmarques.fr',
                 github: 'https://github.com/marquesthomascoding/portfolio-v2',
                 technos: ['html', 'tailwind', 'js', 'vue']
