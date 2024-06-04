@@ -81,6 +81,17 @@ export const useWorkStore = defineStore('work', {
             },
             {
                 id: 8,
+                name: '1, 2, 3, Statue !',
+                date: 'mai 2024',
+                summary: 'Jeu de statue en ligne',
+                description: "Jeu de statue inspiré du jeu originel de l'application 'Coco pense et Coco bouge'. Ce projet constitue un test technique réalisé pour l'entreprise auteure de l'application. Le projet est conçu en HTML, CSS et Javascript. Il reprend l'idée du jeu '1, 2, 3, soleil', en utilisant l'audio pour signifier une phase de mouvement. Ce jeu est conçu pour les enfants, afin de les motivé à bouger et à s'amuser.",
+                image: '/imgs/123statue.png',
+                link: 'https://dynseo-test-technique-marquesthomas.vercel.app',
+                github: 'https://github.com/MarquesThomasCoding/DYNSEO_test_technique',
+                technos: ['html', 'sass', 'js']
+            },
+            {
+                id: 9,
                 name: 'Portfolio v2',
                 date: '2024',
                 summary: 'Mon portfolio actuel',
