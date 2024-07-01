@@ -21,13 +21,13 @@ export default {
             <h3 class="text-2xl">Autre moyens de me contacter :</h3>
             <span class="w-fit group relative">
                 <a class="flex gap-4 items-center" href="https://linkedin.com/in/marquesthomas">
-                    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn">
+                    <img src="https://go-skill-icons.vercel.app/api/icons?i=linkedin" alt="LinkedIn">
                     <p class="opacity-0 -translate-x-full group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-1000 ease-in-out">LinkedIn</p>
                 </a>
             </span>
             <span class="w-fit group relative">
                 <a class="flex gap-4 items-center" href="https://discord.bio/thomluck">
-                    <img src="https://skillicons.dev/icons?i=discord" alt="Discord">
+                    <img src="https://go-skill-icons.vercel.app/api/icons?i=discord" alt="Discord">
                     <p class="opacity-0 -translate-x-full group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-1000 ease-in-out">Discord</p>
                 </a>
             </span>

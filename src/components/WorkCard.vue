@@ -25,7 +25,7 @@ export default {
         <p class="text-gray-200 px-10 py-2.5">{{ work.description }}</p>
         <div class="px-10">
             <p>Technologies utilisées :</p>
-            <img class="h-8 mt-1" :src="'https://skillicons.dev/icons?i='+work.technos.map(techno => techno).join(',')" alt="technos">
+            <img class="h-8 mt-1" :src="'https://go-skill-icons.vercel.app/api/icons?i='+work.technos.map(techno => techno).join(',')" alt="technos">
         </div>
         <a v-if="work.github" :href="work.github" class="mt-2 px-10 text-blue-400 hover:text-blue-700">Voir sur Github</a>
     </div>
